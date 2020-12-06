@@ -88,7 +88,7 @@ class Learner:
               for j in range(lenRow):
                   dmse[i] = (e[j] * trainX.iloc[j, i] + dmse[i]) / lenRow
 
-          # Calculating new weights with RMSprop
+          # Calculating new weights with Adagrad
           for i in range(lenCol):
               v[i] = v[i] * beta +  (1 - beta) * (dmse[i] ** 2)
               weight[i] = weight[i] - (alpha * dmse[i]) \
