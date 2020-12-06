@@ -3,10 +3,9 @@ A gradient descent algorithm that impliments Adagrad.
 
 General Info---------------------------------------------------------------------------------------------
 
-Name	- Daniel Roberts	NetID	- dir170130
-	- Daoqun Yang			- dxy170330
+Name	- Daniel Roberts
 
-Assignment: Assignment 1 (Enhanced Gradient Descent)
+Assignment: Gradient Descent
 IDE	- Visual Studio Code
 Python Version - 3.7.2
 
