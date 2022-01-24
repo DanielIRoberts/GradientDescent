@@ -13,7 +13,7 @@ Included Files------------------------------------------------------------------
 
 Gradientdescent.py
 	-Reading dataset source form URL and preprocessing the data
-	-Randomlization of the weigh, generated through a normal distribution at the beginning
+	-Randomlization of the weight, generated through a normal distribution at the beginning
 	- Calculating the Error, Mean Square Error (MSE), and derivative of MSE
 	- Updating the weight using Adaptive Gradient Descent formula until max iterations are reached
 	  or a minimum change is met
